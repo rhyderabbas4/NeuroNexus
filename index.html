@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroNexus Task01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Poetsen+One&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Poetsen+One&family=Reem+Kufi:wght@400..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <h2>Contact Form</h2>
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="John Doe">
+
+    <label for="contact">Contact Number</label>
+    <input type="text" id="contact" name="contact">
+
+    <label for="address">Address</label>
+    <textarea type="text" id="address" name="address"></textarea>
+
+ <label for="company">Company</label>
+<input type="text" id="company" name="company">
+
+<label for="email">Email Address</label>
+<input type="text" id="email" name="email">
+
+        <label for="department">Department</label>
+        <select id="department" name="department" required>
+            <option value="hr">HR</option>
+            <option value="sales">Sales</option>
+            <option value="development">Development</option>
+            <option value="marketing">Marketing</option>
+        </select>
+        <label>Gender</label>
+        <div class="group">
+            <label><input type="radio" name="gender" value="male" required>Male</label>
+            <label><input type="radio" name="gender" value="female" required>Female</label>
+            <label><input type="radio" name="gender" value="Prefer_not" required>Prefer Not to Say</label>
+        </div>
+        <button type="submit">Submit</button>
+</form>
+</body>
+</html>
